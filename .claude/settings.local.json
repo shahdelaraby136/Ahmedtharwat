@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.figma.com)",
+      "Bash(start \"\" \"C:/Portflio Ahmed/index.html\")",
+      "Bash(find:*)",
+      "Bash(start:*)",
+      "Bash(python -m http.server:*)",
+      "Bash(npx -y serve \"C:/Portflio Ahmed\" -p 5500)",
+      "Bash(gh auth status:*)",
+      "Bash(git --version:*)"
+    ]
+  }
+}
